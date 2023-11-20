@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./app(1).js" defer></script>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+   <div class="container">
+
+    <h1 class="todo">TODO LIST</h1>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <td class="move">
+                <input class="input" id="name">
+            </td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td class="move">
+                <input class="input" id="age">
+            </td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td class="move">
+                <input class="male" type="radio"  name="Gender" value="male" id="male">
+                <label>Male</label>
+                <input class="female" type="radio"  name="Gender" value="female" id="female">
+                <label>Female</label>
+            </td>
+        </tr>
+        <tr>
+            <th>Course</th>
+            <td class="move">
+                <select class="change" id="course" placeholder="Select Course">
+                    <option value="" disabled selected hidden>Please Choose...</option>
+                    <!-- <option selected disabled>Select Course</option> -->
+                    <option class="option">HTML</option>
+                    <option class="option">Css</option>
+                    <option class="option">Js</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <td class="move">
+                <input id="email" class="input">
+            </td>
+        </tr>
+    </table>
+
+    <button class="button" id="add">Summit</button>
+    </div>
+
+    <div class="container-1">
+    <table id="table">
+        <tr>
+            <th class="name">Name</th>
+            <th class="age">Age</th>
+            <th class="gender">Gender</th>
+            <th class="course">Course</th>
+            <th class="email">E-mail</th>
+            <th class="option">Option</th>
+        </tr>
+   
+        
+    </table>
+        
+    </div>
+
+    
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+
+.container{
+    border: 2px solid black;
+    border-radius: 5%;
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: url(./img\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+    /* animation: animateBg 5s linear infinite; */
+}
+@keyframes animateBg{
+
+    100%{
+    filter: hue-rotate(360deg);
+    }
+}
+
+.container-1{
+    /* border:  1px  solid black; */
+    margin-left: 500px;
+    margin-top: -280px;
+}
+.table{
+    /* border: 2px solid black; */
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 310px;
+     
+}
+th,td{
+    border: 1px solid white;
+    color: white;
+} 
+.input{
+    border: none;
+    outline: none;
+    width: 310px;
+    color: white;
+    background-color: transparent;
+}
+.js{
+    border: 1px solid black;
+    color: black;
+}
+input:focus {
+    outline: none;
+    border: none;
+}
+.female{
+    margin-left: 100px;
+}
+.male{
+    margin-left: 10px;
+}
+.todo{
+    margin-top: -1px;
+    color: blueviolet;
+    margin-left: 110px;
+}
+.name{
+width: 150px;
+border: 1px solid black;
+color: black;
+}
+.age{
+width: 50px;
+border: 1px solid black;
+color: black
+}
+.gender{
+width: 70px;
+border: 1px solid black;
+color: black
+}
+.course{
+width: 150px;
+border: 1px solid black;
+color: black
+}
+.email{
+width: 200px;
+border: 1px solid black;
+color: black
+}
+.change{
+    width: 300px;
+    height: 21px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+.option{
+    width: 30px;
+    color: black;
+    border: 1px solid black;
+}
+.delete{
+    border: none;
+    
+}
+
+
+.button{
+    height: 20px;
+    margin-left: 318px;
+    width: 60px;
+    margin-top: 15px;
+}
